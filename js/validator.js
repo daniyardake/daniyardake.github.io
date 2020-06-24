@@ -25,8 +25,7 @@
     this.$btn       = $('button[type="submit"], input[type="submit"]')
                         .filter('[form="' + this.$element.attr('id') + '"]')
                         .add(this.$element.find('input[type="submit"], button[type="submit"]'))
-    this.$span      = ($(.extend(Validator.VALIDATORS, options.focus = False)).visibility==False) ? this.$content: this.remove()
-    
+
     this.update()
 
     this.$element.on('input.bs.validator change.bs.validator focusout.bs.validator', $.proxy(this.onInput, this))

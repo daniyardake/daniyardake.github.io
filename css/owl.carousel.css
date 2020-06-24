@@ -120,7 +120,7 @@
  */
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
-  transition: opacity 100ms ease; }
+  transition: opacity 400ms ease; }
 
 .owl-carousel .owl-item img.owl-lazy {
   -webkit-transform-style: preserve-3d;
